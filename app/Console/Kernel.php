@@ -15,6 +15,8 @@ class Kernel extends ConsoleKernel
     protected $commands = [
         // Commands\Inspire::class,
         Commands\getLoto6Data::class,
+        Commands\getForecastData::class,
+        Commands\sendForecastData::class,
     ];
 
     /**
