@@ -46,7 +46,7 @@ class getLoto6Data extends Command
 
 	$csv_file = 'loto6.csv';
 	$csv_file_path = 'storage/' . $csv_file;
-	$table = 'loto6data';
+	$table = 'LOTO6DATA';
 
 	if(!file_exists($csv_file_path)){
 		echo "no csvdata files!";
