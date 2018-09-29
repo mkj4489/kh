@@ -17,6 +17,7 @@ class Kernel extends ConsoleKernel
         Commands\getLoto6Data::class,
         Commands\getForecastData::class,
         Commands\sendForecastData::class,
+        Commands\getBlogImages::class,
     ];
 
     /**
